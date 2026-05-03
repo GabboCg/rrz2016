@@ -1,14 +1,27 @@
-###############################################################################
-# 00_data.R
+#!/usr/bin/env Rscript
+# ======================================================== #
+#
+#             Loading and Variable Construction
+#
+#                 Gabriel E. Cabrera-Guzmán
+#                The University of Manchester
+#
+#                        Spring, 2026
+#
+#                https://gcabrerag.rbind.io
+#
+# ------------------------------ #
+# email: gabriel.cabreraguzman@postgrad.manchester.ac.uk
+# ======================================================== #
+
 # Shared data loading and variable construction for RRZ (2016) replication
 # Source this file from each table script: source("00_data.R")
-###############################################################################
 
 # Read packages
 library(readxl)
 
 # --- File path ---
-DATA_FILE <- "data-raw/Returns_short_interest_data.xlsx"
+DATA_FILE <- "data-raw/PredictorData2016.xlsx"
 
 # --- Load GW variables (full history) ---
 gw_raw <- read_excel(DATA_FILE, sheet = "GW variables")
