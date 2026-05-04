@@ -20,6 +20,7 @@
 # Tests SII predictive power with linear, quadratic, cubic, and stochastic
 # detrending of log(EWSI). Reports beta, t-stat (NW-HAC), R^2 for h=1,3,6,12
 
+# Load auxiliary scripts
 source("load.R")
 
 # ==========================================

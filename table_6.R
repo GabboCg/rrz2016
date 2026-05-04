@@ -23,6 +23,7 @@
 # OOS period: 1990:01-2014:12
 # Subperiods: pre-crisis (1990:01-2006:12), crisis (2007:01-2014:12)
 
+# Load auxiliary scripts
 source("load.R")
 
 # ==========================================

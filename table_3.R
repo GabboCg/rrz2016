@@ -22,6 +22,7 @@
 # Newey-West HAC t-statistics with h lags
 # Wild bootstrapped p-values (1000 iterations)
 
+# Load auxiliary scripts
 source("load.R")
 
 # ==========================================

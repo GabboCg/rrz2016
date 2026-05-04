@@ -17,7 +17,7 @@
 # Shared data loading and variable construction for RRZ (2016) replication
 # Source this file from each table script: source("00_data.R")
 
-# Read packages
+# Load packages
 library(readxl)
 
 # --- File path ---
@@ -25,6 +25,7 @@ DATA_FILE <- "data-raw/PredictorData2016.xlsx"
 
 # --- Load GW variables (full history) ---
 gw_raw <- read_excel(DATA_FILE, sheet = "GW variables")
+
 # Force all columns to numeric (some are read as character due to scientific notation)
 for (col in names(gw_raw)) {
   

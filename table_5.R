@@ -22,6 +22,7 @@
 # Harvey-Leybourne-Newbold (1998) encompassing tests
 # OOS period: 1990:01-2014:12
 
+# Load auxiliary scripts
 source("load.R")
 
 # ==========================================
